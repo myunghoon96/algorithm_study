@@ -1,5 +1,5 @@
 //main branch
-git push u origin main
+git push -u origin main
 
 //master branch
-git push u origin master
+git push -u origin master
