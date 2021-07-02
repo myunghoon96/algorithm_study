@@ -23,6 +23,7 @@ def bfs(node):
             if visit[n]==0:
                 q.append(n)
                 visit[n]=1
+                
 ans=0
 for i in range(1, n+1):
     if visit[i]==0:
