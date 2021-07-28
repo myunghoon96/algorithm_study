@@ -1,5 +1,5 @@
 # algorithm_study
-baekjoon, programmers algorithm
+baekjoon, programmers
 
 git remote add origin github.com.git
 
