@@ -21,7 +21,7 @@ def solution(distance, rocks, n):
                 pre=r
                 minD=min(d,minD)
 
-        #because remove too much stone, mid have to be smaller
+        #because remove too many stone, mid have to be smaller
         if remove>n:
             right=mid-1
         else:
