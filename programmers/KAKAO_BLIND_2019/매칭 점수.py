@@ -1,7 +1,7 @@
 #https://programmers.co.kr/learn/courses/30/lessons/42893
 
 import re
-#여행 #게임 #낚시 #
+
 def solution(word, pages):
     answer = 0
     url_info = dict()
