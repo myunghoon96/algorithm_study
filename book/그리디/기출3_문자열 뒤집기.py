@@ -1,10 +1,10 @@
-s = '0001100'
+s = input()
 
 tmp_list = s.split('0')
-print(tmp_list)
+# print(tmp_list)
 
 tmp_list2 = s.split('1')
-print(tmp_list2)
+# print(tmp_list2)
 
 cnt1 = 0
 for e in tmp_list:

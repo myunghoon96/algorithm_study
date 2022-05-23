@@ -1,5 +1,6 @@
-n = '123402'
-n = '7755'
+#https://www.acmicpc.net/problem/18406
+
+n = input()
 
 mid = len(n)//2
 left, right = map(int, n[:mid]), map(int, n[mid:])
