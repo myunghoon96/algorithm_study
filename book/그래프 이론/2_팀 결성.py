@@ -16,9 +16,6 @@ def union(x,y):
     x_parent = find(x)
     y_parent = find(y)
 
-    if x_parent == y_parent:
-        return 
-
     if x_parent < y_parent:
         parents[y_parent] = x_parent
     else:
