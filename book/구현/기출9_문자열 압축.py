@@ -37,7 +37,8 @@ def solution(s):
         answer = min(answer, len(result))
         return
     
-    for compress_len in range(1, len(s)):
+    for compress_len in range(1, len(s)//2 +1):
+    # for compress_len in range(1, len(s)):
         compress(compress_len)
 
     
