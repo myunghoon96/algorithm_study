@@ -1,7 +1,5 @@
 # https://www.acmicpc.net/problem/19237
 
-# https://www.acmicpc.net/problem/19237
-
 import sys, copy
 from collections import defaultdict
 
